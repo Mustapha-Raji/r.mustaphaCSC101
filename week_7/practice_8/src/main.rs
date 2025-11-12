@@ -1,10 +1,11 @@
-fn main() {
-    let city_arr:[&str;5] = ["Abuja","Port Harcourt", "Maiduguri", "Kano", "Lagos"];
-    println!("array is {:?}",city_arr);
-    println!("array size is :{}",city_arr.len());
+// The iter() function fetches values of all elements in n array.
 
-    for index in 0..5 {
-        println!("city Index {} is located in : {}",index,city_arr[index]);
+fn main(){
+    let arr:[i32,4] = [10,20,30,40];
+    println!("Array is {:?}",arr);
+    println!("array size is :{}",arr.len());
 
-    }
-}
+    for val in arr.len(){
+        println!("value is :{}",val)
+;    }
+} 
