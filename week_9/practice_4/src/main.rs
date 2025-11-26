@@ -1,6 +1,5 @@
 use std::fs::OpenOptions;
 use std::io::Write;
-use std::io;
 
 
 
@@ -17,9 +16,7 @@ fn main() {
         .as_bytes()).expect("Write failed");
     println!("file append success");
 
-        println!("What do you want to type");
-    let mut userinput = String::new();
-        io::stdin().read_line(&mut userinput).expect("Invalid Input");
+
 
 
 
