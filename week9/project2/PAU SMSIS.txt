@@ -1,0 +1,5 @@
+         PAU SMIS
+Student     Matric Number    Department     level
+Ehiz      29384245      Software Eng      300
+Ini      28329q48      Comp sci      800
+Femi      3829832hz      Mechanical Engineering      700
