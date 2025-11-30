@@ -37,7 +37,7 @@ fn main() {
 
 
         //Collecting user level
-        println!("Level: ");
+        println!("level: ");
         let mut level = String::new();
             io::stdin()
             .read_line(&mut level)
